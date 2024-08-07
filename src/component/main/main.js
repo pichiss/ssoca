@@ -1,5 +1,8 @@
 import Section from './section.js'
+import Bg from '../../img/main_visual_fullscreen.jpg'
+import Svicon from '../../img/i-appicon.svg'
 import './main.css'
+import Footer from '../footer/footer.js'
 
 const Main = ()=>{
     const contents= [
@@ -34,19 +37,22 @@ const Main = ()=>{
     },
 ]
     return (
+        <>
         <main>
             <div className="bgImg">
-                <img src='./asset/main_visual_fullscreen.jpg' />
+                <img src={Bg} alt='background img' />
                 <h2>차가 필요한 <br /> 모든 순간, 쏘카</h2>
             </div>
             <Section contents={contents} />
             <div className="downWrap">
                 <a href="#">
-                    <img src="/asset/i-appicon.svg" alt="ssoca"/>
+                    <img src={Svicon} alt="ssoca"/>
                     <p></p>
                 </a>
             </div>
         </main>
+        <Footer />
+        </>
     )
 }
 export default Main;
