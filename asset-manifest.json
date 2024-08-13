@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/github.com/ssoca/static/css/main.62c9f8a1.css",
+    "main.js": "/github.com/ssoca/static/js/main.3191865f.js",
+    "static/js/453.93e87d3e.chunk.js": "/github.com/ssoca/static/js/453.93e87d3e.chunk.js",
+    "index.html": "/github.com/ssoca/index.html",
+    "main.62c9f8a1.css.map": "/github.com/ssoca/static/css/main.62c9f8a1.css.map",
+    "main.3191865f.js.map": "/github.com/ssoca/static/js/main.3191865f.js.map",
+    "453.93e87d3e.chunk.js.map": "/github.com/ssoca/static/js/453.93e87d3e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.62c9f8a1.css",
+    "static/js/main.3191865f.js"
+  ]
+}
