@@ -3,7 +3,7 @@ let Ham = document.querySelector('.hamBtn')
 const cross = ()=>{
     
 }
-const changHam = ()=>{
+const changeHam = ()=>{
     return(
         Ham.addEventListener('click',cross)
     )
